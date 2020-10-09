@@ -6,7 +6,8 @@ lastPullButton.onclick = () => {
   durgun.classList.remove("ded");
   win.classList.add("hidden");
   win.classList.add("hidden");
-  let tenMinutes = Date.now() % 600000; //10 minutes
+  lastPullButton.classList.add("hidden");
+  let tenMinutes = Math.floor(Date.now() / 600000); //10 minutes
   let randomNumber = Math.random(tenMinutes) * 10;
   if (randomNumber < 4) {
     win.classList.remove("hidden");
