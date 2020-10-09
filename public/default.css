@@ -1,0 +1,29 @@
+.hidden {
+  display: none;
+}
+
+.ded {
+  transform: scaleY(-1);
+}
+
+button {
+  border-radius: 10px;
+  background-color: rgb(23, 131, 131);
+}
+
+main,
+main > button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+main > * + * {
+  margin-top: 15px;
+}
+
+body {
+  background-color: dimgrey;
+}
