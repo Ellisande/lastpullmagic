@@ -4,7 +4,7 @@
 }
 
 .durgun {
-  content: var(--durgon-display-url);
+  content: none;
 }
 
 .hidden {
