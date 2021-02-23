@@ -1,3 +1,12 @@
+.durgun {
+  --durgon-display-url: url("sunking-sol.svg");
+  --durgon-alt-display-url: url("sunking-aranjah.png");
+}
+
+.durgun {
+  content: var(--durgon-display-url);
+}
+
 .hidden {
   display: none;
 }
