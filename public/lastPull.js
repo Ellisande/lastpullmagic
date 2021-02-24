@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const altImg = getComputedStyle(durgun).getPropertyValue(
       "--durgon-alt-display-url"
     );
-    console.log(altImg);
     durgun.style.setProperty("content", altImg);
   }
 });
@@ -35,13 +34,5 @@ lastPullButton.onclick = () => {
   } else {
     lose.classList.remove("hidden");
     durgun.classList.remove("ded");
-  }
-  if (Math.floor(randomNumber) % 2 == 0) {
-    console.log("Even, using default", Math.floor(randomNumber) % 2);
-    const defaultImg = durgun.style.getPropertyValue("--durgon-display-url");
-    durgun.style.setProperty("content", defaultImg);
-  } else {
-    const altImg = durgun.style.getPropertyValue("--durgon-alt-display-url");
-    durgun.style.setProperty("content", altImg);
   }
 };
