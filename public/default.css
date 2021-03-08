@@ -1,10 +1,6 @@
 .durgun {
-  --durgon-display-url: url("sunking-sol.svg");
-  --durgon-alt-display-url: url("sunking-aranjah.png");
-}
-
-.durgun {
-  content: none;
+  --durgon-display-url: url("herd_of_cats.png");
+  --durgon-alt-display-url: url("herd_of_cats.png");
 }
 
 .hidden {
