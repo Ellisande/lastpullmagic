@@ -51,11 +51,17 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(100, 200px);
+  grid-auto-rows: max-content;
+  grid-gap: 30px;
   width: 80vw;
   height: 60vh;
+}
+
+.gallery > * {
+  height: 200px;
+  width: 300px;
 }
 
 nav {
