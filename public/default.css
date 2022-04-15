@@ -1,7 +1,7 @@
 .durgun {
-  --durgon-display-url: url("sylvannas.png");
-  --durgon-alt-display-url: url("sylvannas_it.png");
-  --durgon-alt-display-2-url: url("sod_comic_1.png");
+  --durgon-display-url: url("jailer.svg");
+  --durgon-alt-display-url: url("jailer.svg");
+  --durgon-alt-display-2-url: url("jailer.svg");
 }
 
 .hidden {
