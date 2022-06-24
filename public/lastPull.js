@@ -6,16 +6,19 @@ let lose = document.getElementById("lose");
 document.addEventListener("DOMContentLoaded", () => {
   const now = Date.now();
   let img = getComputedStyle(durgun).getPropertyValue("--durgon-display-url");
-  if (now % 3 == 0) {
+  if (now % 4 == 0) {
     img = getComputedStyle(durgun).getPropertyValue("--durgon-display-url");
   }
-  if (now % 3 == 1) {
+  if (now % 4 == 1) {
     img = getComputedStyle(durgun).getPropertyValue("--durgon-alt-display-url");
   }
-  if (now % 3 == 2) {
+  if (now % 4 == 2) {
     img = getComputedStyle(durgun).getPropertyValue(
       "--durgon-alt-display-2-url"
     );
+  }
+  if (now % 4 == 3) {
+    img = getComputedStyle(durgun).getPropertyValue("--durgon-alt-display-3-url");
   }
   durgun.style.setProperty("content", img);
 });
