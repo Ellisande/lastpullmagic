@@ -95,3 +95,62 @@ nav > * {
 nav > a {
   text-decoration: none;
 }
+
+.fade-in-out {
+  color: rgba(0, 0, 0, 0);
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.rawr-cloud {
+  position: relative;
+}
+.offset-0 {
+  animation-delay: 2s;
+}
+
+.offset-0.fade-in-out {
+  animation-duration: 8s;
+}
+
+.offset-1 {
+  position: absolute;
+  top: 1.5rem;
+  left: 10px;
+  animation-delay: 0.8s;
+}
+
+.offset-2 {
+  position: absolute;
+  top: -1rem;
+  left: 5rem;
+  animation-delay: 0.3s;
+}
+
+.offset-3 {
+  position: absolute;
+  top: 2.5rem;
+  left: 8rem;
+  animation-delay: 1.3s;
+}
+
+.cloud {
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+@keyframes fade {
+  0% {
+    color: rgba(0, 0, 0, 0);
+  }
+  30% {
+    color: rgba(0, 0, 0, 1);
+  }
+  60% {
+    color: rgba(0, 0, 0, 1);
+  }
+  90% {
+    color: rgba(0, 0, 0, 0);
+  }
+}
