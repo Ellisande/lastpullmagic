@@ -1,8 +1,8 @@
 .durgun {
-  --durgon-display-url: url("denathrius.png");
-  --durgon-alt-display-url: url("denathrius.png");
-  --durgon-alt-display-2-url: url("denathrius.png");
-  --durgon-alt-display-3-url: url("denathrius.png.png");
+  --durgon-display-url: url("jailer.png");
+  --durgon-alt-display-url: url("jailer.png");
+  --durgon-alt-display-2-url: url("jailer.png");
+  --durgon-alt-display-3-url: url("jailer.png.png");
 }
 
 .hidden {
