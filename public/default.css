@@ -1,8 +1,8 @@
 .durgun {
-  --durgon-display-url: url("dimensius.png");
-  --durgon-alt-display-url: url("dimensius.png");
-  --durgon-alt-display-2-url: url("dimensius.png");
-  --durgon-alt-display-3-url: url("dimensius.png");
+  --durgon-display-url: url("wind_boss.png");
+  --durgon-alt-display-url: url("wind_boss.png");
+  --durgon-alt-display-2-url: url("wind_boss.png");
+  --durgon-alt-display-3-url: url("wind_boss.png");
 }
 
 .hidden {
